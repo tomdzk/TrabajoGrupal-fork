@@ -1,16 +1,27 @@
-import { useState } from 'react'
+import { Outlet, Link } from "react-router-dom";
 
-import './App.css'
-import Card from './component/Card'
 
-function App() {
-  const [count, setCount] = useState(0)
 
+const App = () => {
   return (
     <>
-    
+      <nav>
+        <ul>
+          <li>
+            <Link to="/">Inicio</Link>
+          </li>
+          <li>
+            <Link to="/productos">Productos</Link>
+          </li>
+          <li>
+            <Link to="/contacto">Contacto</Link>
+          </li>
+        </ul>
+      </nav>
+
+      <Outlet />
     </>
   )
-}
+};
 
-export default App
+export default App;

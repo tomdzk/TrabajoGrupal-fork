@@ -1,9 +1,9 @@
 .cards {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 15px;
-  
-    margin-left: 400px;
+    margin-top: 10px;
+    margin-left: 80px;
   }
   
   .cards .black {

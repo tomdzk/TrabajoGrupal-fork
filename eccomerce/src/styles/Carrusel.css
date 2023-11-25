@@ -1,0 +1,3 @@
+.carousel-item{
+    @apply flex-col;
+}

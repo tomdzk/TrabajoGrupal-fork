@@ -1,43 +1,47 @@
-import React from 'react'
+// TarjetaProducto.js
+import React from 'react';
+import Imagenes from './Imagen';
+import Articulos from './Articulos';
+import { useState } from 'react';
 import "../styles/TarjetaProducto.css"
-import Imagenes from './Imagen'
-import { useState } from 'react'
 
+const TarjetaProducto = ({ articulo }) => {
+  const [texto, setTexto] = useState("Comprar");
 
-const TarjetaProducto = () => {
-  
-    const [texto, setTexto] = useState("Comprar");
-  
-    return (
+  const CompraClick = () => {
+    alert("Próximamente abrimos");
+  };
+
+  return (
     <>
-    {/*codigo de trajeta de uiverso.io*/}
-    
-    <div className="myCard">
+      {/* Código de la tarjeta en universe.io*/}
+      <div className="myCard">
         <div className="innerCard">
-            <div className="frontSide">
-               
-                <Imagenes className="title"/>
-                <p>REMERA NEGRA</p>
-            </div>
-            <div className="backSide">
-                <p className="title">PRECIO $::::</p>
-                <p>Descripcion</p>
-                <p>SKU</p>
-                <p>Stok</p>
-                <button   className="bg-slate-200 inset-x-0 bottom-0 h-19 rounded-lg   "
-                
-                type="button"
-                onClick={() => setTexto("Gracias")}
-                
-                
-                >{texto}</button>
-            </div>
+          <div className="frontSide">
+          
+            <Imagenes className="title" />
+            <Articulos
+              nombre={articulo.nombre}
+              precio={articulo.precio}
+            />
+          </div>
+          <div className="backSide">
+            <p className="title">PRECIO $::::</p>
+            <p>Descripcion</p>
+            <p>SKU</p>
+            <p>Stok</p>
+            <button
+              className="bg-slate-200 inset-x-0 bottom-0 h-19 rounded-lg"
+              type="button"
+              onClick={CompraClick}
+            >
+              {texto}
+            </button>
+          </div>
         </div>
-    </div>
-   
-    
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default TarjetaProducto
+export default TarjetaProducto;

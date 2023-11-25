@@ -4,7 +4,7 @@ import "../styles/Card.css"
 export const Card = () => {
   return (
     <>
-<div  className="text-3xl font-bold object-none object-center"  >
+<div  className="text-3xl font-bold object-none object-center mt-0"  >
  
     <div className="cards ">
     <div class="card black">

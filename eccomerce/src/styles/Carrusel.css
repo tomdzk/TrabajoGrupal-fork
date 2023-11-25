@@ -1,3 +1,4 @@
 .carousel-item{
     @apply flex-col;
+    @apply py-0
 }

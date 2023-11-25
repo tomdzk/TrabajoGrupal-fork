@@ -7,8 +7,8 @@ import "../styles/Carrusel.css"
 export const Carrusel = () => {
   return (
     <>
-<div className="carousel w-1/2 mt-0 ml-80 ">
-  <div id="slide1" className="carousel-item relative w-full items-center ml-96">
+<div className="carousel w-3/5 mt-0 ml-80 mb-0 ">
+  <div id="slide1" className="carousel-item relative w-full items-center ml-96 pb-0">
     <img src={a} className="w-full" />
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
       <a href="#slide4" className="btn btn-circle">❮</a> 

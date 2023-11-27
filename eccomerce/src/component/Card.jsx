@@ -8,17 +8,20 @@ export const Card = () => {
  
     <div className="cards ">
     <div class="card black">
+    <a href='../page/productos.jsx'>
         <p class="tip">Deportivo</p>
-        <p class="second-text">Ropa deportiva</p>
+        <p class="second-text">Ropa deportiva</p></a>
     </div>
     <div class="card black">
+    <a href='../page/productos.jsx'>
         <p class="tip">Casual</p>
-        <p class="second-text">Ropa casual</p>
+        <p class="second-text">Ropa casual</p></a>
     </div>
     <div class="card black">
+    <a href='../page/productos.jsx'>
         <p class="tip">Vestir</p>
         <p class="second-text">Ropa de vestir</p>
-   
+        </a>
     </div>
     </div>
 

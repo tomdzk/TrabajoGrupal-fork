@@ -4,12 +4,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 30px;
   }
   
   .cardHome {
     position: relative;
     width: 420px;
-    height: 450px;
+    height: 550px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,10 +24,10 @@
   }
   
   .titulo {
-    font-weight: 700;
-    font-size: 0.9em;
+    margin-top: 20px;
     letter-spacing: 1.2px;
     color: white;
+    font-size: x-large;
   }
   
   

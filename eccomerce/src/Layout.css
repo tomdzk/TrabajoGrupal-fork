@@ -1,8 +1,16 @@
 .barraNav{
   padding: 20px;
-  box-shadow: 0 0 10px 5px black, 0 0 5px 0px white;
+  
   margin-bottom: 25px;
   position: sticky;
   width: 100%;
 
+}
+.li-bg:hover{
+  background-color: black;
+  padding: 5px 15px;
+  border-radius: 15px;
+  box-shadow: 2px 5px 15px gray;
+  color: white;
+  
 }

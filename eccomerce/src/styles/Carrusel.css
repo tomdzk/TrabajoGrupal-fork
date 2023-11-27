@@ -1,4 +1,8 @@
 .carousel-item{
-    @apply flex-col;
-    @apply py-0
+    @apply block;
+    @apply justify-center;
+    @apply m-0;
+    @apply p-0;
+    
 }
+

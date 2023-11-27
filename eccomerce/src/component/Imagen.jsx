@@ -5,7 +5,7 @@ export const Imagenes = () => {
   return (
     <>
     
-    <img src={Imagen}></img>
+    <img className="imgProducto" src={Imagen}></img>
     
     </>
   )

@@ -11,7 +11,7 @@ const FormContacto = () => {
     <textarea placeholder="Tu mensaje" required></textarea>
     
      
-    <button id="botonEnviar">Enviar</button>
+    <button class="botonEnviar">Enviar</button>
 </form>
 </div>
     

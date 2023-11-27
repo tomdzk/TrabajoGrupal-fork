@@ -1,12 +1,15 @@
-
+import FormContacto from "../component/FormContacto";
+import React, {useState} from "react";
 
 
 const Contacto = () => {
-    return <>
+    return (
+      <>
 
+<FormContacto/>
 
-
-    </>;
+    </>
+)
   };
   
   export default Contacto;

@@ -21,6 +21,10 @@ const Layout = () => {
           <li className="text-black font-serif text-2xl li-bg"   >
             <Link to="/contacto">Contacto</Link>
           </li>
+
+          <li className="text-black font-serif text-2xl li-bg"   >
+            <Link to="/iniciarSesion">Iniciar Sesión</Link>
+          </li>
           
         </ul>
         <div className=" fixed top-0 right-0 "><BotonEncendido/>  </div>

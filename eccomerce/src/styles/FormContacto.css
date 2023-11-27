@@ -42,7 +42,7 @@
     border: 1px solid rgb(219, 213, 213);
   }
   
-  .form button {
+  .form .botonEnviar {
     align-self: flex-end;
     padding: 8px;
     outline: 0;
@@ -53,5 +53,6 @@
     background-color: royalblue;
     color: #fff;
     cursor: pointer;
+    box-shadow: none;
   }
       

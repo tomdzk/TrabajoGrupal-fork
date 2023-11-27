@@ -5,10 +5,11 @@ import Layout from './Layout.jsx'
 import './index.css'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Productos from "./page/productos.jsx"
-import Contacto from "./page/contacto"
+import Contacto from "./page/contacto.jsx"
 import Error from "./page/error.jsx"
 import Footer from './component/Footer.jsx';
 import Home from "./page/home.jsx"
+import IniciarSesion from "./page/iniciarSesion.jsx"
 import { BotonEncendido } from './component/BotonEncendido.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -20,6 +21,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route index element={<Home/>}/>
           <Route path="productos" element={<Productos />} />
           <Route path="contacto" element={<Contacto />} />
+          <Route path="iniciarSesion" element={<IniciarSesion/>} />
           <Route path="*" element={<Error />} />
         </Route>
    </Routes>

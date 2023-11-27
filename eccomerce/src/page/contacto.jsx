@@ -1,15 +1,14 @@
-import FormContacto from "../component/FormContacto";
-import React, {useState} from "react";
+import React from 'react'
+import FormContacto from '../component/FormContacto'
 
-
-const Contacto = () => {
-    return (
-      <>
-
-<FormContacto/>
-
+const contacto = () => {
+  return (
+    <>
+    
+    <FormContacto/>
+    
     </>
-)
-  };
-  
-  export default Contacto;
+  )
+}
+
+export default contacto

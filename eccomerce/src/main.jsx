@@ -9,6 +9,7 @@ import Contacto from "./page/contacto"
 import Error from "./page/error.jsx"
 import Footer from './component/Footer.jsx';
 import Home from "./page/home.jsx"
+import { BotonEncendido } from './component/BotonEncendido.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
  
@@ -22,8 +23,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path="*" element={<Error />} />
         </Route>
    </Routes>
+   <Footer/>
 </BrowserRouter>
-      <Footer/>
+         
+    
 </React.StrictMode>
-
+  
 )
